@@ -1,9 +1,16 @@
 <#--
 <script type="text/javascript" src="${root_url}/javascripts/libs/modernizr.min.js"></script>
-<script type="text/javascript" src="${root_url}/javascripts/libs/jquery.min.js"></script>
-<script type="text/javascript" src="${root_url}/javascripts/libs/swfobject-modified.min.js"></script>
 <script type="text/javascript" src="${root_url}/javascripts/libs/opoopress.js"></script>
 -->
+<!-- /container -->
+<script src="//cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')
+</script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
 <script type="text/javascript" src="${root_url}/javascripts/opoopress.min.js"></script>
 <script type="text/javascript" src="${root_url}/javascripts/totop.js"></script>
 <script language="JavaScript">
